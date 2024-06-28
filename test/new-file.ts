@@ -1,1 +1,1 @@
-const newFunction = (a: number, b: number) => a + b;
+const newFunction = (a: number, b: number) => a + b - 1;
