@@ -6,8 +6,9 @@
   "main": "index.js",
   "scripts": {
     "test": "vitest",
-    "test:ui": "vitest --ui --coverage.enabled=true --changed ",
-    "test:run": "vitest run"
+    "test:ui": "vitest --ui",
+    "test:run": "vitest run",
+    "test:coverage": "vitest --coverage.enabled=true --changed"
   },
   "devDependencies": {
     "@vitest/coverage-v8": "^1.6.0",
